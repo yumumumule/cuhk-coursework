@@ -1,4 +1,4 @@
-# ESTR1002: C Programming Lab Exercises
+# ESTR1002 - C Programming
 
 CUHK ESTR1002, Fall 2025. Solutions to all ten lab sheets, organised as
 46 independently runnable exercises. Each lab keeps its original question sheet as
