@@ -1,4 +1,4 @@
-# L01: Output and arithmetic
+# Lab1: Output and arithmetic
 
 [Course index](../README.md) | [Original exercise](../Description/L01.pdf)
 
@@ -11,8 +11,8 @@
 Build just this lab from the course root:
 
 ```sh
-cmake -S L01 -B build/L01
-cmake --build build/L01
+cmake -S Lab1 -B build/Lab1
+cmake --build build/Lab1
 ```
 
 For a single target in the full course build: `cmake --build build --target l01_q1`.

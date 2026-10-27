@@ -16,7 +16,7 @@ with the normal lab subdirectories and single-configuration or Visual Studio
 output layouts. Use a build directory containing one configuration at a time.
 For Visual Studio CTest runs, specify the built configuration with `-C`.
 
-`l10_q3_max.c` links the actual `L10/Q3/func.c` with `SIZE=5`, allowing exact tests
+`l10_q3_max.c` links the actual `Lab10/Q3/func.c` with `SIZE=5`, allowing exact tests
 for first/last maxima, negative values and equal values. The normal exercise is
 also run with its original 100000000-element array. The environment exercises
 run with synthetic values; the suite does not print the user's environment.

@@ -1,4 +1,4 @@
-# L06: Strings and character processing
+# Lab6: Strings and character processing
 
 [Course index](../README.md) | [Original exercise](../Description/L06.pdf)
 
@@ -15,8 +15,8 @@ Password punctuation follows the exact list in the exercise. Positive K rotates 
 Build just this lab from the course root:
 
 ```sh
-cmake -S L06 -B build/L06
-cmake --build build/L06
+cmake -S Lab6 -B build/Lab6
+cmake --build build/Lab6
 ```
 
 For a single target in the full course build: `cmake --build build --target l06_q1`.

@@ -1,4 +1,4 @@
-# L08: Recursion and search
+# Lab8: Recursion and search
 
 [Course index](../README.md) | [Original exercise](../Description/L08.pdf)
 
@@ -14,8 +14,8 @@ The stair, chessboard and score recursions memoise repeated subproblems. A chess
 Build just this lab from the course root:
 
 ```sh
-cmake -S L08 -B build/L08
-cmake --build build/L08
+cmake -S Lab8 -B build/Lab8
+cmake --build build/Lab8
 ```
 
 For a single target in the full course build: `cmake --build build --target l08_q1`.

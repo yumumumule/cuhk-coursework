@@ -1,4 +1,4 @@
-# L10: Pointers, arrays and allocation
+# Lab10: Pointers, arrays and allocation
 
 [Course index](../README.md) | [Original exercise](../Description/L10.pdf)
 
@@ -16,8 +16,8 @@
 Build just this lab from the course root:
 
 ```sh
-cmake -S L10 -B build/L10
-cmake --build build/L10
+cmake -S Lab10 -B build/Lab10
+cmake --build build/Lab10
 ```
 
 For a single target in the full course build: `cmake --build build --target l10_q1_task1`.

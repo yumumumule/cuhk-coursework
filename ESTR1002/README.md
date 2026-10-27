@@ -8,24 +8,24 @@ CUHK ESTR1002, Fall 2025. Solutions to all ten lab sheets, organised as
 
 | Lab | Topics | Solutions | Handout |
 | --- | --- | --- | --- |
-| L01 | Output and arithmetic | [Source and question index](L01/README.md) | [PDF](Description/L01.pdf) |
-| L02 | Expressions and number conversion | [Source and question index](L02/README.md) | [PDF](Description/L02.pdf) |
-| L03 | Selection and numerical formulas | [Source and question index](L03/README.md) | [PDF](Description/L03.pdf) |
-| L04 | Loops and text patterns | [Source and question index](L04/README.md) | [PDF](Description/L04.pdf) |
-| L05 | Arrays and linear scans | [Source and question index](L05/README.md) | [PDF](Description/L05.pdf) |
-| L06 | Strings and character processing | [Source and question index](L06/README.md) | [PDF](Description/L06.pdf) |
-| L07 | Text decoding and numerical methods | [Source and question index](L07/README.md) | [PDF](Description/L07.pdf) |
-| L08 | Recursion and search | [Source and question index](L08/README.md) | [PDF](Description/L08.pdf) |
-| L09 | Dictionaries, dynamic programming and structures | [Source and question index](L09/README.md) | [PDF](Description/L09.pdf) |
-| L10 | Pointers, arrays and allocation | [Source and question index](L10/README.md) | [PDF](Description/L10.pdf) |
+| Lab1 | Output and arithmetic | [Source and question index](Lab1/README.md) | [PDF](Description/L01.pdf) |
+| Lab2 | Expressions and number conversion | [Source and question index](Lab2/README.md) | [PDF](Description/L02.pdf) |
+| Lab3 | Selection and numerical formulas | [Source and question index](Lab3/README.md) | [PDF](Description/L03.pdf) |
+| Lab4 | Loops and text patterns | [Source and question index](Lab4/README.md) | [PDF](Description/L04.pdf) |
+| Lab5 | Arrays and linear scans | [Source and question index](Lab5/README.md) | [PDF](Description/L05.pdf) |
+| Lab6 | Strings and character processing | [Source and question index](Lab6/README.md) | [PDF](Description/L06.pdf) |
+| Lab7 | Text decoding and numerical methods | [Source and question index](Lab7/README.md) | [PDF](Description/L07.pdf) |
+| Lab8 | Recursion and search | [Source and question index](Lab8/README.md) | [PDF](Description/L08.pdf) |
+| Lab9 | Dictionaries, dynamic programming and structures | [Source and question index](Lab9/README.md) | [PDF](Description/L09.pdf) |
+| Lab10 | Pointers, arrays and allocation | [Source and question index](Lab10/README.md) | [PDF](Description/L10.pdf) |
 
 ## Layout and naming
 
 ```text
 ESTR1002/
   Description/       L01.pdf ... L10.pdf
-  L01/ ... L09/      Q1.c, Q2.c, ... and a question index
-  L10/               Q1_task1.c, Q1_task2.c, Q2_task1.c, ...
+  Lab1/ ... Lab9/    Q1.c, Q2.c, ... and a question index
+  Lab10/             Q1_task1.c, Q1_task2.c, Q2_task1.c, ...
     Q3/              main.c, func.c, func.h
   cmake/             Shared compiler and target settings
   tests/             Example and boundary regression checks
@@ -34,7 +34,7 @@ ESTR1002/
 ```
 
 Each ordinary `.c` file is a separate program with its own `main` function.
-`L10/Q3` is the exception: its two source files form one program. The local game
+`Lab10/Q3` is the exception: its two source files form one program. The local game
 project is excluded from this repository and from the course build.
 
 ## Compile and run
@@ -42,7 +42,7 @@ project is excluded from this repository and from the course build.
 Use a C11 compiler. For example, from this directory:
 
 ```sh
-gcc -std=c11 -Wall -Wextra -Wpedantic L05/Q3.c -o l05_q3
+gcc -std=c11 -Wall -Wextra -Wpedantic Lab5/Q3.c -o l05_q3
 ./l05_q3
 ```
 
@@ -50,19 +50,19 @@ Link the math library for exercises using `<math.h>` when your Unix toolchain
 requires it. For example:
 
 ```sh
-gcc -std=c11 -Wall -Wextra -Wpedantic L07/Q4.c -lm -o l07_q4
+gcc -std=c11 -Wall -Wextra -Wpedantic Lab7/Q4.c -lm -o l07_q4
 ./l07_q4
 ```
 
 Compile the multi-file exercise together:
 
 ```sh
-gcc -std=c11 -Wall -Wextra -Wpedantic L10/Q3/main.c L10/Q3/func.c -o l10_q3
+gcc -std=c11 -Wall -Wextra -Wpedantic Lab10/Q3/main.c Lab10/Q3/func.c -o l10_q3
 ./l10_q3
 ```
 
 In Windows PowerShell, executable names normally end in `.exe`; run them using
-`./l05_q3.exe` or `.\l05_q3.exe`. Use a UTF-8 terminal for `L07/Q2`.
+`./l05_q3.exe` or `.\l05_q3.exe`. Use a UTF-8 terminal for `Lab7/Q2`.
 
 ### Build with CMake
 
@@ -79,8 +79,8 @@ when Ninja is installed. MSVC users can use CMake's Visual Studio generator.
 
 Targets are named `l01_q1`, `l01_q2`, ..., `l10_q2_task3`, and `l10_q3`.
 For example, `cmake --build build --target l05_q3` builds one exercise.
-Its executable is under `build/L05/`; the multi-file exercise is under
-`build/L10/Q3/`. Visual Studio generators add a configuration subdirectory
+Its executable is under `build/Lab5/`; the multi-file exercise is under
+`build/Lab10/Q3/`. Visual Studio generators add a configuration subdirectory
 such as `Debug/` or `Release/`. Each lab can also be configured independently;
 see its README.
 

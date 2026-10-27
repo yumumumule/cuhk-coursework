@@ -1,4 +1,4 @@
-# L03: Selection and numerical formulas
+# Lab3: Selection and numerical formulas
 
 [Course index](../README.md) | [Original exercise](../Description/L03.pdf)
 
@@ -15,8 +15,8 @@ Equal departure and arrival times represent a 24-hour journey. An alien digit mu
 Build just this lab from the course root:
 
 ```sh
-cmake -S L03 -B build/L03
-cmake --build build/L03
+cmake -S Lab3 -B build/Lab3
+cmake --build build/Lab3
 ```
 
 For a single target in the full course build: `cmake --build build --target l03_q1`.

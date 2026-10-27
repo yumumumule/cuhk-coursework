@@ -1,4 +1,4 @@
-# L02: Expressions and number conversion
+# Lab2: Expressions and number conversion
 
 [Course index](../README.md) | [Original exercise](../Description/L02.pdf)
 
@@ -12,8 +12,8 @@
 Build just this lab from the course root:
 
 ```sh
-cmake -S L02 -B build/L02
-cmake --build build/L02
+cmake -S Lab2 -B build/Lab2
+cmake --build build/Lab2
 ```
 
 For a single target in the full course build: `cmake --build build --target l02_q1`.

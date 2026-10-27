@@ -1,4 +1,4 @@
-# L07: Text decoding and numerical methods
+# Lab7: Text decoding and numerical methods
 
 [Course index](../README.md) | [Original exercise](../Description/L07.pdf)
 
@@ -14,8 +14,8 @@
 Build just this lab from the course root:
 
 ```sh
-cmake -S L07 -B build/L07
-cmake --build build/L07
+cmake -S Lab7 -B build/Lab7
+cmake --build build/Lab7
 ```
 
 For a single target in the full course build: `cmake --build build --target l07_q1`.

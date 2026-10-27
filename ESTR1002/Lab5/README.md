@@ -1,4 +1,4 @@
-# L05: Arrays and linear scans
+# Lab5: Arrays and linear scans
 
 [Course index](../README.md) | [Original exercise](../Description/L05.pdf)
 
@@ -15,8 +15,8 @@ Equilibrium indices use running sums in O(n) time. Turning points must be strict
 Build just this lab from the course root:
 
 ```sh
-cmake -S L05 -B build/L05
-cmake --build build/L05
+cmake -S Lab5 -B build/Lab5
+cmake --build build/Lab5
 ```
 
 For a single target in the full course build: `cmake --build build --target l05_q1`.

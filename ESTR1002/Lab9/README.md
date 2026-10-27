@@ -1,4 +1,4 @@
-# L09: Dictionaries, dynamic programming and structures
+# Lab9: Dictionaries, dynamic programming and structures
 
 [Course index](../README.md) | [Original exercise](../Description/L09.pdf)
 
@@ -14,8 +14,8 @@ Dictionary input is case-insensitive, supports multiple lines and dynamically si
 Build just this lab from the course root:
 
 ```sh
-cmake -S L09 -B build/L09
-cmake --build build/L09
+cmake -S Lab9 -B build/Lab9
+cmake --build build/Lab9
 ```
 
 For a single target in the full course build: `cmake --build build --target l09_q1`.

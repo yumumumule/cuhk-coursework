@@ -1,4 +1,4 @@
-# L04: Loops and text patterns
+# Lab4: Loops and text patterns
 
 [Course index](../README.md) | [Original exercise](../Description/L04.pdf)
 
@@ -14,8 +14,8 @@
 Build just this lab from the course root:
 
 ```sh
-cmake -S L04 -B build/L04
-cmake --build build/L04
+cmake -S Lab4 -B build/Lab4
+cmake --build build/Lab4
 ```
 
 For a single target in the full course build: `cmake --build build --target l04_q1`.
