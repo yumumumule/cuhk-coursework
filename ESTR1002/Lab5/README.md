@@ -1,6 +1,6 @@
 # Lab5: Arrays and linear scans
 
-[Course index](../README.md) | [Original exercise](../Description/L05.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

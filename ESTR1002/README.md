@@ -1,31 +1,30 @@
 # ESTR1002: C Programming Lab Exercises
 
 CUHK ESTR1002, Fall 2025. Solutions to all ten lab sheets, organised as
-46 independently runnable exercises. The original question PDFs are in
-[`Description/`](Description/); each lab has an index describing its inputs and outputs.
+46 independently runnable exercises. Each lab keeps its original question sheet as
+`description.pdf`, alongside its source files and input/output index.
 
 ## Exercise index
 
 | Lab | Topics | Solutions | Handout |
 | --- | --- | --- | --- |
-| Lab1 | Output and arithmetic | [Source and question index](Lab1/README.md) | [PDF](Description/L01.pdf) |
-| Lab2 | Expressions and number conversion | [Source and question index](Lab2/README.md) | [PDF](Description/L02.pdf) |
-| Lab3 | Selection and numerical formulas | [Source and question index](Lab3/README.md) | [PDF](Description/L03.pdf) |
-| Lab4 | Loops and text patterns | [Source and question index](Lab4/README.md) | [PDF](Description/L04.pdf) |
-| Lab5 | Arrays and linear scans | [Source and question index](Lab5/README.md) | [PDF](Description/L05.pdf) |
-| Lab6 | Strings and character processing | [Source and question index](Lab6/README.md) | [PDF](Description/L06.pdf) |
-| Lab7 | Text decoding and numerical methods | [Source and question index](Lab7/README.md) | [PDF](Description/L07.pdf) |
-| Lab8 | Recursion and search | [Source and question index](Lab8/README.md) | [PDF](Description/L08.pdf) |
-| Lab9 | Dictionaries, dynamic programming and structures | [Source and question index](Lab9/README.md) | [PDF](Description/L09.pdf) |
-| Lab10 | Pointers, arrays and allocation | [Source and question index](Lab10/README.md) | [PDF](Description/L10.pdf) |
+| Lab1 | Output and arithmetic | [Source and question index](Lab1/README.md) | [PDF](Lab1/description.pdf) |
+| Lab2 | Expressions and number conversion | [Source and question index](Lab2/README.md) | [PDF](Lab2/description.pdf) |
+| Lab3 | Selection and numerical formulas | [Source and question index](Lab3/README.md) | [PDF](Lab3/description.pdf) |
+| Lab4 | Loops and text patterns | [Source and question index](Lab4/README.md) | [PDF](Lab4/description.pdf) |
+| Lab5 | Arrays and linear scans | [Source and question index](Lab5/README.md) | [PDF](Lab5/description.pdf) |
+| Lab6 | Strings and character processing | [Source and question index](Lab6/README.md) | [PDF](Lab6/description.pdf) |
+| Lab7 | Text decoding and numerical methods | [Source and question index](Lab7/README.md) | [PDF](Lab7/description.pdf) |
+| Lab8 | Recursion and search | [Source and question index](Lab8/README.md) | [PDF](Lab8/description.pdf) |
+| Lab9 | Dictionaries, dynamic programming and structures | [Source and question index](Lab9/README.md) | [PDF](Lab9/description.pdf) |
+| Lab10 | Pointers, arrays and allocation | [Source and question index](Lab10/README.md) | [PDF](Lab10/description.pdf) |
 
 ## Layout and naming
 
 ```text
 ESTR1002/
-  Description/       L01.pdf ... L10.pdf
-  Lab1/ ... Lab9/    Q1.c, Q2.c, ... and a question index
-  Lab10/             Q1_task1.c, Q1_task2.c, Q2_task1.c, ...
+  Lab1/ ... Lab9/    description.pdf, Q1.c, Q2.c, ... and a question index
+  Lab10/             description.pdf, Q1_task1.c, Q1_task2.c, ...
     Q3/              main.c, func.c, func.h
   cmake/             Shared compiler and target settings
   tests/             Example and boundary regression checks

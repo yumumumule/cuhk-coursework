@@ -1,6 +1,6 @@
 # Lab2: Expressions and number conversion
 
-[Course index](../README.md) | [Original exercise](../Description/L02.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

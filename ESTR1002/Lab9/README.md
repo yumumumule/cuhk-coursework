@@ -1,6 +1,6 @@
 # Lab9: Dictionaries, dynamic programming and structures
 
-[Course index](../README.md) | [Original exercise](../Description/L09.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

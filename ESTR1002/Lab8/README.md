@@ -1,6 +1,6 @@
 # Lab8: Recursion and search
 
-[Course index](../README.md) | [Original exercise](../Description/L08.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

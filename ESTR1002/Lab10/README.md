@@ -1,6 +1,6 @@
 # Lab10: Pointers, arrays and allocation
 
-[Course index](../README.md) | [Original exercise](../Description/L10.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
 # Lab1: Output and arithmetic
 
-[Course index](../README.md) | [Original exercise](../Description/L01.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

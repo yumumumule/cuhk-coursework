@@ -1,6 +1,6 @@
 # Lab4: Loops and text patterns
 
-[Course index](../README.md) | [Original exercise](../Description/L04.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

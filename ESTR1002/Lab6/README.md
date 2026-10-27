@@ -1,6 +1,6 @@
 # Lab6: Strings and character processing
 
-[Course index](../README.md) | [Original exercise](../Description/L06.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

@@ -1,6 +1,6 @@
 # Lab7: Text decoding and numerical methods
 
-[Course index](../README.md) | [Original exercise](../Description/L07.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |

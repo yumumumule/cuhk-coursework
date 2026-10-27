@@ -1,6 +1,6 @@
 # Lab3: Selection and numerical formulas
 
-[Course index](../README.md) | [Original exercise](../Description/L03.pdf)
+[Course index](../README.md) | [Original exercise](description.pdf)
 
 | Source | Exercise | Input | Output |
 | --- | --- | --- | --- |
