@@ -1,0 +1,13 @@
+function(estr1002_exercise target)
+    add_executable(${target} ${ARGN})
+    set_target_properties(${target} PROPERTIES
+        C_STANDARD 11 C_STANDARD_REQUIRED YES C_EXTENSIONS NO)
+    if(MSVC)
+        target_compile_options(${target} PRIVATE /W4 /utf-8)
+    else()
+        target_compile_options(${target} PRIVATE -Wall -Wextra -Wpedantic)
+        if(NOT WIN32)
+            target_link_libraries(${target} PRIVATE m)
+        endif()
+    endif()
+endfunction()
