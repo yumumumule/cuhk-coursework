@@ -1,0 +1,9 @@
+# Every pair of mixed strategies is an equilibrium. Finite representatives only.
+3 3
+0 0 0
+0 0 0
+0 0 0
+# B
+0 0 0
+0 0 0
+0 0 0

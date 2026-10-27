@@ -1,0 +1,45 @@
+name: ESTR1005 Nash solver
+
+on:
+  push:
+    paths:
+      - 'ESTR1005/game-theory/**'
+      - '.github/workflows/estr1005.yml'
+  pull_request:
+    paths:
+      - 'ESTR1005/game-theory/**'
+      - '.github/workflows/estr1005.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: ESTR1005/game-theory
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Build
+        run: cmake --build build --config Release --parallel
+      - name: Test
+        run: ctest --test-dir build -C Release --output-on-failure
+      - name: Install independent oracle
+        run: python -m pip install -r tests/requirements.txt
+      - name: Cross-check equilibrium sets
+        if: runner.os != 'Windows'
+        run: python tests/cross_check.py build/nash
+      - name: Cross-check equilibrium sets (Windows)
+        if: runner.os == 'Windows'
+        run: python tests/cross_check.py build/Release/nash.exe

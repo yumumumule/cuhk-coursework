@@ -1,0 +1,7 @@
+# A 2-by-3 general-sum game from the Nashpy support-enumeration exercise.
+2 3
+1 1 -1
+2 -1 0
+# B
+0.5 -1 -0.5
+-1 3 2

@@ -1,0 +1,10 @@
+# Rows and columns: Rock, Paper, Scissors
+3 3
+# A: row player
+0 -1 1
+1 0 -1
+-1 1 0
+# B: column player (zero sum)
+0 1 -1
+-1 0 1
+1 -1 0

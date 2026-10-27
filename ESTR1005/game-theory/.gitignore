@@ -1,0 +1,14 @@
+/build*/
+/.venv/
+__pycache__/
+*.pyc
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.pdb
+/.zig-cache/
+/zig-out/
+/nash
+/nash-ubsan

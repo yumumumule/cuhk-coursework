@@ -1,0 +1,2 @@
+# Optional oracle only; the solver and regression suite need no Python packages.
+nashpy==0.0.43

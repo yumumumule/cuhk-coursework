@@ -1,0 +1,7 @@
+# Actions: Cooperate, Defect. Unique equilibrium: (Defect, Defect).
+2 2
+3 0
+5 1
+# B
+3 5
+0 1
